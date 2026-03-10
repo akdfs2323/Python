@@ -43,4 +43,3 @@ def view_settings(setting):
         result += f"{key.capitalize()}: {value}\n"
     return result
 print(view_settings(test_settings))
-        
